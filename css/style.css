@@ -178,6 +178,9 @@
   display: flex;
   column-gap: 133px;
 }
+.left-side-image {
+  width: 503.5px;
+}
 .left-side-img {
   width: 100%;
 }
@@ -197,6 +200,7 @@
   letter-spacing: -0.1px;
   font-size: 24px;
   color: #fff;
+  margin-bottom: 16px;
 }
 .sec-3-par {
   font-family: "Inter", sans-serif;
@@ -207,6 +211,7 @@
   letter-spacing: 0.1px;
   font-size: 16px;
   color: #fff;
+  margin-bottom: 16px;
 }
 .sec-3-li {
   margin-bottom: 8px;
@@ -391,6 +396,26 @@
   .box-card {
     width: 279.33px;
   }
+  .sec-3 {
+    height: 895px;
+  }
+  .container-1 {
+    flex-direction: column;
+  }
+  .left-side-image {
+    width: 100%;
+    margin-bottom: 64px;
+  }
+  .right-side-txt {
+    flex-direction: row;
+    max-width: 960px;
+    width: 100%;
+    justify-content: space-between;
+  }
+  .sec-3-txt,
+  .par-box {
+    width: 414px;
+  }
   .cover-pic {
     background-image: url(../images/img1024px.png);
   }
@@ -412,6 +437,7 @@
   .left-text {
     font-size: 40px;
     line-height: 48.5px;
+    width: 100%;
   }
   .action-div {
     flex-direction: column;
@@ -446,6 +472,23 @@
   .card-txt {
     max-width: 744px;
     text-align: center;
+  }
+  .sec-3 {
+    height: 917px;
+  }
+  .left-side-image {
+    margin-bottom: 29px;
+  }
+  .right-side-txt {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .sec-3-txt,
+  .par-box {
+    max-width: 696px;
+    width: 100%;
   }
   .cover-pic {
     background-image: url(../images/img744px.png);
@@ -493,7 +536,8 @@
   .left-text,
   .left-par,
   .left-div-txt {
-    width: 327px;
+    max-width: 327px;
+    width: 100%;
   }
   .sec-2 {
     height: 510px;
@@ -502,8 +546,37 @@
     height: 170px;
   }
   .card-txt {
-    width: 327px;
+    max-width: 327px;
+    width: 100%;
     letter-spacing: 0.1px;
+  }
+  .sec-3 {
+    height: 523px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .left-side-image {
+    margin-bottom: 14px;
+  }
+  .sec-3-txt,
+  .par-box {
+    max-width: 327px;
+    width: 100%;
+    font-size: 16px;
+    margin-bottom: 14px;
+  }
+  .sec-3-par, .sec-3-li {
+    font-size: 14px;
+    margin-bottom: 0;
+  }
+  .left-side-img{
+    max-width: 327px;
+    width: 100%;
+    padding-top: 24px;
+  }
+  .right-side-txt {
+    row-gap: 0;
   }
   .cover-pic {
     background-image: url(../images/img375px.png);
